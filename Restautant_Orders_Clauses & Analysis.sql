@@ -33,8 +33,6 @@ select *
 from orders
 where Quantity > 2;
 
--- 6. 
-
 -- 6. Find the most popular food item (highest total quantity sold).
 
 select Food_Item, sum(Quantity) as highest_quantity_sold
